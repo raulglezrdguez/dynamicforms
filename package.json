@@ -1,0 +1,25 @@
+{
+  "name": "dynamic",
+  "version": "1.0.0",
+  "description": "Dynamic content",
+  "main": "sever.js",
+  "scripts": {
+    "start": "nodemon --inspect server.js",
+    "startdbadmins": "node ./scripts/filldbadmins.js",
+    "startdbmodules": "node ./scripts/filldbmodules.js"
+  },
+  "keywords": [
+    "content",
+    "dynamic"
+  ],
+  "author": "Raul Glez Rdguez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "multiparty": "^4.1.3",
+    "nedb": "^1.8.0",
+    "node-thumbnail": "^0.13.0",
+    "systeminformation": "^3.37.4"
+  }
+}
